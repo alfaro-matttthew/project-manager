@@ -16,10 +16,40 @@
     <title>Project Manager</title>
   </head>
   <body>
-    <header>
-      <h1></h1>
+    <header class="container-fluid h-25 bg-dark">
+      <h1>Project Tracker</h1>
+      <h2>Current Date and Time:</h2>
+      <h2 id="date-time"></h2>
     </header>
-    <main></main>
+    <main class="container-fluid h-75">
+      <form action="submit"></form>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Type</th>
+            <th scope="col">Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
